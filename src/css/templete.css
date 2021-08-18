@@ -3174,3 +3174,12 @@ td.fc-event-container {
 .banner .info {
   font-size: 18px;
 }
+.item-icon-box span {
+  font-size: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .item-icon-box span {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+}

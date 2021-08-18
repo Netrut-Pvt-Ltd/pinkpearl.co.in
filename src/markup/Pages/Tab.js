@@ -12,7 +12,7 @@ const Popupss = (props) => {
 
   return (
     <div className="section-full bg-white pizza-full-menu">
-      <div tabs>
+      <div tabs="true">
         <div className="bg-primary pizza-items">
           <div className="container">
             <ul className="nav nav-tabs pizza-items filters">

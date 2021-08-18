@@ -94,7 +94,7 @@ class Header2 extends Component {
                 </div>
               </div>
 
-              <div className="dlab-quik-search ">
+              {/* <div className="dlab-quik-search ">
                 <form action="#">
                   <input
                     name="search"
@@ -107,7 +107,7 @@ class Header2 extends Component {
                     <i className="ti-close"></i>
                   </span>
                 </form>
-              </div>
+              </div> */}
 
               <div
                 className="header-nav navbar-collapse collapse navbar myNavbar justify-content-end"
