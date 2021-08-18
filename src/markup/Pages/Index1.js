@@ -59,7 +59,10 @@ class Index1 extends Component {
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
-                      style={{ backgroundImage: "url(" + attraction1 + ")" }}
+                      style={{
+                        backgroundImage: "url(" + attraction1 + ")",
+                        backgroundRepeat: "no-repeat",
+                      }}
                     >
                       <div className="icon-content">
                         <h2 className="dlab-tilte text-white">Attractions</h2>
@@ -78,7 +81,10 @@ class Index1 extends Component {
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
-                      style={{ backgroundImage: "url(" + attraction2 + ")" }}
+                      style={{
+                        backgroundImage: "url(" + attraction2 + ")",
+                        backgroundRepeat: "no-repeat",
+                      }}
                     >
                       <div className="icon-content">
                         <h2 className="dlab-tilte text-white">Chokha Punjab</h2>
@@ -97,7 +103,10 @@ class Index1 extends Component {
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
-                      style={{ backgroundImage: "url(" + attraction3 + ")" }}
+                      style={{
+                        backgroundImage: "url(" + attraction3 + ")",
+                        backgroundRepeat: "no-repeat",
+                      }}
                     >
                       <div className="icon-content">
                         <h2 className="dlab-tilte text-white">Hotel</h2>
@@ -116,7 +125,10 @@ class Index1 extends Component {
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
-                      style={{ backgroundImage: "url(" + attraction4 + ")" }}
+                      style={{
+                        backgroundImage: "url(" + attraction4 + ")",
+                        backgroundRepeat: "no-repeat",
+                      }}
                     >
                       <div className="icon-content">
                         <h2 className="dlab-tilte text-white">

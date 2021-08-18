@@ -11,7 +11,7 @@ const Popupss = (props) => {
   };
 
   return (
-    <div class="section-full bg-white pizza-full-menu">
+    <div className="section-full bg-white pizza-full-menu">
       <div tabs>
         <div className="bg-primary pizza-items">
           <div className="container">
@@ -902,14 +902,16 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item3.jpg")}
+                          src={require("./../../images/product/hotel/cinnamon-res1.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Muffin</Link>
+                        <Link to={"/shop-product-details"}>
+                          Cinnamon Restaurant
+                        </Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -920,9 +922,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -932,14 +933,16 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item4.jpg")}
+                          src={require("./../../images/product/hotel/cinnamon-res2.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Pancakes</Link>
+                        <Link to={"/shop-product-details"}>
+                          Cinnamon Restaurant
+                        </Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -950,9 +953,39 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
+                      </div>
+                    </div>
+                  </div>{" "}
+                </div>
+                <div className="dz-col col m-b30">
+                  <div className="item-box shop-item style2">
+                    <div className="item-img">
+                      <Link>
+                        <img
+                          src={require("./../../images/product/hotel/cinnamon-res1.jpg")}
+                          alt=""
+                        />
+                      </Link>
+                    </div>
+                    <div className="item-info text-center">
+                      <h4 className="item-title">
+                        <Link to={"/shop-product-details"}>
+                          Cinnamon Restaurant
+                        </Link>
+                      </h4>
+                      <h5 className="price text-primary">
+                        <del>45</del>
+                        <span>$40</span>
+                      </h5>
+                      <div className="cart-btn">
+                        <Link
+                          to={"/shop-product-details"}
+                          className="btn btnhover radius-xl"
                         >
+                          <i className="ti-shopping-cart"></i> View More
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -962,14 +995,16 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item6.jpg")}
+                          src={require("./../../images/product/hotel/cinnamon-res1.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Pumpkin cakes</Link>
+                        <Link to={"/shop-product-details"}>
+                          Cinnamon Restaurant
+                        </Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -980,9 +1015,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -992,14 +1026,16 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item8.jpg")}
+                          src={require("./../../images/product/hotel/cinnamon-res2.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Muffin</Link>
+                        <Link to={"/shop-product-details"}>
+                          Cinnamon Restaurant
+                        </Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1010,39 +1046,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="dz-col col m-b30">
-                  <div className="item-box shop-item style2">
-                    <div className="item-img">
-                      <Link>
-                        <img
-                          src={require("./../../images/product/item2.jpg")}
-                          alt=""
-                        />
-                      </Link>
-                    </div>
-                    <div className="item-info text-center">
-                      <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Cupcakes</Link>
-                      </h4>
-                      <h5 className="price text-primary">
-                        <del>45</del>
-                        <span>$40</span>
-                      </h5>
-                      <div className="cart-btn">
-                        <Link
-                          to={"/shop-product-details"}
-                          className="btn btnhover radius-xl"
-                        >
-                          <i className="ti-shopping-cart"></i> Add To Cart
-                        </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -1057,14 +1062,14 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item3.jpg")}
+                          src={require("./../../images/product/hotel/disco-bar.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Pancakes</Link>
+                        <Link to={"/shop-product-details"}>Disco</Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1075,9 +1080,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -1087,14 +1091,14 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item4.jpg")}
+                          src={require("./../../images/product/hotel/disco-bar.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Pumpkin cakes</Link>
+                        <Link to={"/shop-product-details"}>Disco</Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1105,9 +1109,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -1117,14 +1120,14 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item5.jpg")}
+                          src={require("./../../images/product/hotel/disco-bar.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Muffin</Link>
+                        <Link to={"/shop-product-details"}>Disco</Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1135,9 +1138,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -1147,14 +1149,14 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item5.jpg")}
+                          src={require("./../../images/product/hotel/disco-bar.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Cupcakes</Link>
+                        <Link to={"/shop-product-details"}>Disco</Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1165,9 +1167,8 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
-                        >
                       </div>
                     </div>
                   </div>
@@ -1177,14 +1178,14 @@ const Popupss = (props) => {
                     <div className="item-img">
                       <Link>
                         <img
-                          src={require("./../../images/product/item7.jpg")}
+                          src={require("./../../images/product/hotel/disco-bar.jpg")}
                           alt=""
                         />
                       </Link>
                     </div>
                     <div className="item-info text-center">
                       <h4 className="item-title">
-                        <Link to={"/shop-product-details"}>Birthday Cake</Link>
+                        <Link to={"/shop-product-details"}>Disco</Link>
                       </h4>
                       <h5 className="price text-primary">
                         <del>45</del>
@@ -1195,7 +1196,7 @@ const Popupss = (props) => {
                           to={"/shop-product-details"}
                           className="btn btnhover radius-xl"
                         >
-                          <i className="ti-shopping-cart"></i> Add To Cart
+                          <i className="ti-shopping-cart"></i> View More
                         </Link>
                       </div>
                     </div>

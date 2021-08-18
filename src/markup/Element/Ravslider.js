@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-var bnr = require("./../../images/main-slider/slide10.jpg");
+// var bnr = require("./../../images/main-slider/slide10.jpg");
 let bnr2 = require("./../../images/main-slider/hotel-banner.jpg");
 
 class Banner extends Component {
@@ -14,7 +14,7 @@ class Banner extends Component {
             backgroundImage: `linear-gradient(
 				90deg
 				,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url( ${bnr2} )`,
-            backgroundSize: "100%",
+            // backgroundSize: "100%",
           }}
         >
           <div className="container">
