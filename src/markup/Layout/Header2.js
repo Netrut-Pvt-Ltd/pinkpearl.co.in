@@ -115,7 +115,7 @@ class Header2 extends Component {
               >
                 <div className="logo-header">
                   <Link to={"./"}>
-                    <img src={require("./../../images/pink-logo.png")} alt="" />{" "}
+                    <img src={require("./../../images/pink-logo.png")} alt="" />
                   </Link>
                 </div>
                 <ul className="nav navbar-nav">

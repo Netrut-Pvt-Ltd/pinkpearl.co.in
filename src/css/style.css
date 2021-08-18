@@ -14677,18 +14677,20 @@ pre {
 }
 
 @media only screen and (max-width: 991px) {
-  /* .navbar-nav {
+  .navbar-nav {
     overflow-x: scroll;
-    height: 100vh !important;
+    height: 150vh !important;
+  }
+  /* .header-nav {
+    position: fixed;
   } */
-
   .site-header.center .header-nav .nav1 {
     width: 100%;
-    height: auto;
+    height: auto !important;
   }
   .site-header.center .header-nav .nav2 {
     width: 100%;
-    height: auto;
+    /* height: auto !important; */
   }
   .mo-left .header-nav .logo-header {
     left: auto !important;

@@ -3182,4 +3182,7 @@ td.fc-event-container {
     font-size: 10px;
     letter-spacing: 0;
   }
+  .pizza-header .dlab-social-icon {
+    display: none;
+  }
 }
