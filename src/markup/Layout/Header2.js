@@ -120,7 +120,7 @@ class Header2 extends Component {
                 </div>
                 <ul className="nav navbar-nav">
                   <li className="active">
-                    <Link to={""}>
+                    <Link>
                       Home<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu">
@@ -133,7 +133,7 @@ class Header2 extends Component {
                     </ul>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link>
                       Marriage Garden<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu">
@@ -161,7 +161,7 @@ class Header2 extends Component {
                     </ul>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link>
                       Chokha Punjab<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu">
@@ -180,12 +180,11 @@ class Header2 extends Component {
                     </ul>
                   </li>
                   <li className="has-mega-menu">
-                    <Link to={""}>
+                    <Link>
                       Hotel<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="mega-menu">
                       <li>
-                        {" "}
                         <Link to={""}>Blog Grid</Link>
                         <ul>
                           <li>
@@ -207,7 +206,6 @@ class Header2 extends Component {
                         </ul>
                       </li>
                       <li>
-                        {" "}
                         <Link to={""}>Blog Half Image</Link>
                         <ul>
                           <li>
@@ -226,7 +224,6 @@ class Header2 extends Component {
                         </ul>
                       </li>
                       <li>
-                        {" "}
                         <Link to={""}>Blog Large Image</Link>
                         <ul>
                           <li>
@@ -266,7 +263,7 @@ class Header2 extends Component {
                     </ul>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link>
                       Contact Us <i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu">
@@ -299,7 +296,7 @@ class Header2 extends Component {
                     </ul>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link>
                       Career<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu left">

@@ -13411,8 +13411,8 @@ ol.commentlist li .star-rating {
     background-color: #141516;
   }
   .mo-left .header-nav {
-    overflow: scroll;
     position: fixed;
+    overflow: scroll;
     width: 280px;
     left: -280px;
     height: 100vh !important;
@@ -14677,8 +14677,18 @@ pre {
 }
 
 @media only screen and (max-width: 991px) {
+  /* .navbar-nav {
+    overflow-x: scroll;
+    height: 100vh !important;
+  } */
+
   .site-header.center .header-nav .nav1 {
     width: 100%;
+    height: auto;
+  }
+  .site-header.center .header-nav .nav2 {
+    width: 100%;
+    height: auto;
   }
   .mo-left .header-nav .logo-header {
     left: auto !important;
@@ -14711,4 +14721,3 @@ pre {
 .pizza-header .header-nav {
   background: transparent !important;
 } */
-
