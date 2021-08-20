@@ -14679,7 +14679,7 @@ pre {
 @media only screen and (max-width: 991px) {
   .navbar-nav {
     overflow-x: scroll;
-    height: 150vh !important;
+    height: 100vh !important;
   }
   /* .header-nav {
     position: fixed;

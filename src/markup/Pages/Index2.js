@@ -23,6 +23,7 @@ class Index2 extends Component {
             className="section-full content-inner bg-white"
             style={{ backgroundImage: "url(" + img1 + ")" }}
           >
+            <Tab />
             <div className="container">
               <div className="row">
                 <div className="col-lg-6 col-md-12">
@@ -279,11 +280,9 @@ class Index2 extends Component {
             </div>
           </div>
 
-          <Tab />
-
-          <div className="section-full bg-white pizza-full-menu">
+          {/* <div className="section-full bg-white pizza-full-menu">
             <img src={require("./../../images/ads/hotel-ads8.jpg")} alt="" />
-          </div>
+          </div> */}
 
           <Owl2 />
 

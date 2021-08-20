@@ -120,23 +120,21 @@ class Header2 extends Component {
                 </div>
                 <ul className="nav navbar-nav">
                   <li className="active">
-                    <Link>
+                    <Link to={"./"}>
                       Home<i className="fa fa-chevron-down"></i>
                     </Link>
                     <ul className="sub-menu">
                       <li>
-                        <Link to={"/"}>Home 01</Link>
+                        <Link to={"./about-1"}>About Us</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to={"index-2"}>Home 02</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li>
-                    <Link>
-                      Marriage Garden<i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul className="sub-menu">
+                    <Link to={"/index-3"}>Marriage Garden</Link>
+                    {/* <ul className="sub-menu">
                       <li>
                         <Link to={"/about-1"}>About Us</Link>
                       </li>
@@ -158,13 +156,11 @@ class Header2 extends Component {
                       <li>
                         <Link to={"/team"}>Team</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link>
-                      Chokha Punjab<i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul className="sub-menu">
+                    <Link>Chokha Punjab</Link>
+                    {/* <ul className="sub-menu">
                       <li>
                         <Link to={"/our-menu"}>Menu Style 1</Link>
                       </li>
@@ -177,13 +173,11 @@ class Header2 extends Component {
                       <li>
                         <Link to={"/our-menu-4"}>Menu Style 4</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li className="has-mega-menu">
-                    <Link>
-                      Hotel<i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul className="mega-menu">
+                    <Link to={"/index-2"}>Hotel</Link>
+                    {/* <ul className="mega-menu">
                       <li>
                         <Link to={""}>Blog Grid</Link>
                         <ul>
@@ -260,13 +254,11 @@ class Header2 extends Component {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link>
-                      Contact Us <i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul className="sub-menu">
+                    <Link to={"/contact-1"}>Contact Us</Link>
+                    {/* <ul className="sub-menu">
                       <li>
                         <Link to={"/shop"}>Shop</Link>
                       </li>
@@ -293,20 +285,18 @@ class Header2 extends Component {
                       <li>
                         <Link to={"/shop-register"}>Register</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link>
-                      Career<i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul className="sub-menu left">
+                    <Link>Career</Link>
+                    {/* <ul className="sub-menu left">
                       <li>
                         <Link to={"/contact-1"}>Contact Us 1</Link>
                       </li>
                       <li>
                         <Link to={"/contact-2"}>Contact Us 2</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                 </ul>
                 <div className="dlab-social-icon">
