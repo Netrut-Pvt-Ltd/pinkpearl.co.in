@@ -14723,3 +14723,83 @@ pre {
 .pizza-header .header-nav {
   background: transparent !important;
 } */
+
+/* /////////////index3 (Marriage)/////////////// */
+.marriage-head {
+  padding-top: 25px;
+  text-align: center;
+}
+.marriage-list {
+  margin: 55px 0;
+}
+.about-garden {
+  padding: 20px 0px;
+}
+.react-photo-gallery--gallery img:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in-out;
+}
+
+/* //////////////contact card////////////// */
+.contact-info {
+  /* display: flex;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center; */
+  padding: 30px 0px;
+}
+
+.card {
+  background: #2f3542;
+  padding: 0 20px;
+  margin: 0 10px;
+  /* width: calc(33% - 20px); */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-icon {
+  font-size: 28px;
+  background: #5fcac7;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.card:hover .card-icon {
+  background: none;
+  color: #5fcac7;
+  transform: scale(1.6);
+}
+
+.card p {
+  /* margin-top: 20px; */
+  font-weight: 300;
+
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.card:hover p {
+  max-height: 40px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+  }
+}

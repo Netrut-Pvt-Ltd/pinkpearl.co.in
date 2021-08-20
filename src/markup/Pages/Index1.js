@@ -3,25 +3,25 @@ import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
-import OurPartners from "./../Element/OurPartners";
+// import OurPartners from "./../Element/OurPartners";
 import Slider from "./../Element/Slider";
 import Accord from "./../Element/Accord";
 
 //Images
 var img1 = require("./../../images/background/bg5.jpg");
-var serblog1 = require("./../../images/our-services/pic1.jpg");
-var serblog2 = require("./../../images/our-services/pic2.jpg");
-var serblog3 = require("./../../images/our-services/pic3.jpg");
-var serblog4 = require("./../../images/our-services/pic4.jpg");
+// var serblog1 = require("./../../images/our-services/pic1.jpg");
+// var serblog2 = require("./../../images/our-services/pic2.jpg");
+// var serblog3 = require("./../../images/our-services/pic3.jpg");
+// var serblog4 = require("./../../images/our-services/pic4.jpg");
 var img2 = require("./../../images/background/bg1.jpg");
 var img3 = require("./../../images/background/bg5.jpg");
-var img4 = require("./../../images/background/bg4.jpg");
+// var img4 = require("./../../images/background/bg4.jpg");
 var attraction1 = require("./../../images/background/attraction1.jpg");
 var attraction2 = require("./../../images/background/attraction2.jpg");
 var attraction3 = require("./../../images/background/attraction3.jpg");
 var attraction4 = require("./../../images/background/attraction4.jpg");
 var pinkImg = require("./../../images/main-slider/pink-slider1.jpg");
-var about1 = require("./../../images/about/about1.jpg");
+// var about1 = require("./../../images/about/about1.jpg");
 
 const blogNews = [
   {
