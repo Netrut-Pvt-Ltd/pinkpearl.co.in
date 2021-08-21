@@ -47,6 +47,7 @@ import Shopregister from "./Pages/Shopregister";
 import Contact from "./Pages/Contact";
 import Contact2 from "./Pages/Contact2";
 import Index4 from "./Pages/Index4";
+import Career from "./Element/Career";
 
 class Markup extends Component {
   render() {
@@ -131,6 +132,7 @@ class Markup extends Component {
 
           <Route path="/contact-1" exact component={Contact} />
           <Route path="/contact-2" exact component={Contact2} />
+          <Route path="/career" exact component={Career} />
         </Switch>
       </BrowserRouter>
     );

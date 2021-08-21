@@ -27,7 +27,7 @@ class Slider extends Component {
                 <span>Water Park</span>
                 <h2 className="title">Welcome To Pink Pearl</h2>
                 <h4 className="sub-title">The Best Water Park In Jaipur</h4>
-                <Link to={"/about-1"} className="btn btnhover">
+                <Link to={"/contact-1"} className="btn btnhover">
                   About Us
                 </Link>
                 {/* <Link

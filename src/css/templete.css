@@ -3180,6 +3180,9 @@ td.fc-event-container {
 .pizza-full-menu {
   margin-top: -100px;
 }
+.index4-slider .title {
+  font-size: 44px;
+}
 @media only screen and (max-width: 991px) {
   .item-icon-box span {
     font-size: 10px;

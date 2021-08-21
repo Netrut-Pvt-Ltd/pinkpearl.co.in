@@ -30,10 +30,16 @@ class Index3 extends Component {
 
           <div className="container">
             <div className="marriage-head">
-              <h5 style={{ color: "#5fcac7" }}>
+              <h2 style={{ color: "#5fcac7" }}>
                 Royal wedding destination in Jaipur- Pink Pearl
-              </h5>
-              <p style={{ color: "rgb(127 118 118)", textAlign: "center" }}>
+              </h2>
+              <p
+                style={{
+                  color: "rgb(127 118 118)",
+                  textAlign: "center",
+                  fontSize: "18px",
+                }}
+              >
                 Your special day calls for a celebration at a Special location.
                 So, here’s a glance at some of the reasons why Pink Pearl makes
                 for a superb option to host wedding functions
@@ -55,7 +61,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -65,7 +71,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -75,7 +81,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -85,7 +91,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -95,7 +101,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -106,7 +112,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -116,7 +122,7 @@ class Index3 extends Component {
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
                         <i
-                          class="fa fa-arrow-right"
+                          className="fa fa-arrow-right"
                           style={{ color: "#5fcac7", marginRight: "8px" }}
                           aria-hidden="true"
                         ></i>
@@ -194,9 +200,9 @@ class Index3 extends Component {
               <div className="row">
                 {/* <div class="contact-info text-center"> */}
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card">
+                  <div className="card">
                     <i
-                      class="card-icon fa fa-envelope-o"
+                      className="card-icon fa fa-envelope-o"
                       aria-hidden="true"
                     ></i>
                     <p>+91- 9314512035</p>
@@ -204,17 +210,17 @@ class Index3 extends Component {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card">
-                    <i class="card-icon fa fa-phone" aria-hidden="true"></i>
+                  <div className="card">
+                    <i className="card-icon fa fa-phone" aria-hidden="true"></i>
                     <p>+91- 8875691555</p>
 
                     <p>operationsmgr@pinkpearl.co.in</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <div class="card">
+                  <div className="card">
                     <i
-                      class="card-icon fa fa-map-marker"
+                      className="card-icon fa fa-map-marker"
                       aria-hidden="true"
                     ></i>
                     <p>Location</p>

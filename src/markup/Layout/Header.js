@@ -239,7 +239,7 @@ class Header extends Component {
                     </ul>*/}
                   </li>
                   <li>
-                    <Link>Career</Link>
+                    <Link to={"/career"}>Career</Link>
                     {/* <ul className="sub-menu left">
                       <li>
                         <Link to={"/contact-1"}>Contact Us 1</Link>
