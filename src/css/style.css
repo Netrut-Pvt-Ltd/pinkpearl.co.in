@@ -14661,6 +14661,12 @@ pre {
 }
 
 /* ////////////////CUSTOM CSS/////////////// */
+.site-header.center .header-nav li.active {
+  background-color: transparent !important;
+}
+ul.nav.navbar-nav li.active {
+  background-color: transparent !important;
+}
 .site-header.center .header-nav .nav1 {
   text-align: left;
 }
@@ -14739,7 +14745,12 @@ pre {
   transform: translateY(-10px);
   transition: all 0.5s ease-in-out;
 }
-
+.gallery-garden {
+  padding: 50px 0px;
+}
+.fade:not(.show) {
+  opacity: 1 !important;
+}
 /* //////////////contact card////////////// */
 .contact-info {
   /* display: flex;

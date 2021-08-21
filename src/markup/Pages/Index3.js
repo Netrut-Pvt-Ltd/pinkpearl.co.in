@@ -11,7 +11,7 @@ import Owl2 from "../Element/Owl2";
 // import Tab from "./../Pages/Tab";
 // import Owl2 from "./../Element/Owl2";
 
-var img1 = require("./../../images/overlay/pt1.jpg");
+// var img1 = require("./../../images/overlay/pt1.jpg");
 
 class Index3 extends Component {
   render() {
@@ -164,7 +164,7 @@ class Index3 extends Component {
             </div>
           </div>
 
-          <div className="gallery">
+          <div className="gallery-garden">
             <div className="container">
               <h2 className="text-center" style={{ color: "#5fcac7" }}>
                 Gallery
@@ -180,6 +180,7 @@ class Index3 extends Component {
                 Jaipur.
               </p>
             </div>
+
             <GardenGallery />
           </div>
 

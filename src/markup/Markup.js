@@ -46,6 +46,7 @@ import Shopregister from "./Pages/Shopregister";
 
 import Contact from "./Pages/Contact";
 import Contact2 from "./Pages/Contact2";
+import Index4 from "./Pages/Index4";
 
 class Markup extends Component {
   render() {
@@ -55,6 +56,7 @@ class Markup extends Component {
           <Route path="/" exact component={Index1} />
           <Route path="/index-2" exact component={Index2} />
           <Route path="/index-3" exact component={Index3} />
+          <Route path="/index-4" exact component={Index4} />
 
           <Route path="/about-1" exact component={About} />
           <Route path="/our-services" exact component={Ourservices} />
