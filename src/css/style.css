@@ -14742,6 +14742,9 @@ ul.nav.navbar-nav li.active {
 .marriage-list {
   margin: 35px 0;
 }
+.marriage-list ul li h6 {
+  letter-spacing: 1.5px;
+}
 .about-garden {
   padding: 20px 0px;
 }
