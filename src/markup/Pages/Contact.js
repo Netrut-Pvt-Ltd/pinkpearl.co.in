@@ -45,7 +45,7 @@ class Contact extends Component {
             >
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-4 col-lg-6 col-md-6 d-flex m-md-b30 m-lg-b30">
+                  <div className="col-xl-6 col-lg-6 col-md-6 d-flex m-md-b30 m-lg-b30">
                     <div className="p-a30 border contact-area border-1 align-self-stretch radius-sm bg-white">
                       <h3 className="m-b5">Quick Contact</h3>
                       <p>
@@ -83,11 +83,11 @@ class Contact extends Component {
                             </h6>
                             <p>
                               <a href="#"> front_office@pinkpearl.co.in </a>|
-                              <a href="#"> operationsmgr@pinkpearl.co.in </a>
+                              {/* <a href="#"> operationsmgr@pinkpearl.co.in </a> */}
                             </p>
                             <p>
                               <a href="#">
-                                Email (Sales): mktg_jpr@pinkpearl.co.in
+                                {/* Email (Sales): mktg_jpr@pinkpearl.co.in */}
                               </a>
                             </p>
                           </div>
@@ -106,8 +106,8 @@ class Contact extends Component {
                               (Front Office Hotel): +91-7410994999
                               |+91-7410885888
                             </p>
-                            <p>(Water Park): +91-9314823132 | +91-9587433803</p>
-                            <p>Corporate Sales Office: +91-9314512035</p>
+                            {/* <p>(Water Park): +91-9314823132 | +91-9587433803</p> */}
+                            {/* <p>Corporate Sales Office: +91-9314512035</p> */}
                           </div>
                         </li>
                       </ul>
@@ -147,7 +147,7 @@ class Contact extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-4 col-lg-6 col-md-6 m-md-b30 m-lg-b30">
+                  <div className="col-xl-6 col-lg-6 col-md-6 m-md-b30 m-lg-b30">
                     <div className="p-a30 bg-gray clearfix radius-sm contact-form-box">
                       <h3 className="m-b20">Send Message Us</h3>
                       <div className="dzFormMsg"></div>
@@ -231,15 +231,17 @@ class Contact extends Component {
                       </form>
                     </div>
                   </div>
-                  <div className="col-xl-4 col-lg-12 d-flex">
-                    <GoogleMaps
-                      apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
-                      style={{ height: "500px", width: "100%" }}
-                      zoom={6}
-                      center={{ lat: 37.4224764, lng: -122.0842499 }}
-                      markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
-                    />
-                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xl-12 col-lg-12 d-flex m-t30">
+                  <GoogleMaps
+                    apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
+                    style={{ height: "500px", width: "100%" }}
+                    zoom={6}
+                    center={{ lat: 37.4224764, lng: -122.0842499 }}
+                    markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
+                  />
                 </div>
               </div>
             </div>
