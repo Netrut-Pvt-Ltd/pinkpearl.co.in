@@ -14740,7 +14740,7 @@ ul.nav.navbar-nav li.active {
   text-align: center;
 }
 .marriage-list {
-  margin: 55px 0;
+  margin: 35px 0;
 }
 .about-garden {
   padding: 20px 0px;
@@ -14750,7 +14750,7 @@ ul.nav.navbar-nav li.active {
   transition: all 0.5s ease-in-out;
 }
 .gallery-garden {
-  padding: 50px 0px;
+  /* padding: 50px 0px; */
 }
 .fade:not(.show) {
   opacity: 1 !important;
@@ -14765,7 +14765,11 @@ ul.nav.navbar-nav li.active {
   justify-content: center; */
   padding: 30px 0px;
 }
-
+.marriage-image img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
 .card {
   background: #2f3542;
   padding: 0 20px;

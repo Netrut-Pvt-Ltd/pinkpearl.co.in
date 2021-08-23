@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 
-// import Gallery from "react-photo-gallery";
-// import Carousel, { Modal, ModalGateway } from "react-images";
-import { Carousel } from "react-carousel-minimal";
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
+// import { Carousel } from "react-carousel-minimal";
 // import { photos } from "./photos";
 
 let img1 = require("./../../images/product/marriage/marriage-1.jpg");
@@ -15,45 +15,61 @@ let img7 = require("./../../images/product/marriage/marriage-7.jpg");
 let img8 = require("./../../images/product/marriage/marriage-8.jpg");
 
 function GardenGallery() {
-  const data = [
+  const photos = [
     {
-      image: img1,
+      src: img1,
+      width: 4,
+      height: 3,
     },
     {
-      image: img2,
+      src: img2,
+      width: 4,
+      height: 3,
     },
     {
-      image: img3,
+      src: img3,
+      width: 4,
+      height: 3,
     },
     {
-      image: img4,
+      src: img4,
+      width: 4,
+      height: 3,
     },
     {
-      image: img5,
+      src: img5,
+      width: 4,
+      height: 3,
     },
     {
-      image: img6,
+      src: img6,
+      width: 4,
+      height: 3,
     },
     {
-      image: img7,
+      src: img7,
+      width: 4,
+      height: 3,
     },
     {
-      image: img8,
+      src: img8,
+      width: 4,
+      height: 3,
     },
   ];
 
-  // const [currentImage, setCurrentImage] = useState(0);
-  // const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  // const openLightbox = useCallback((event, { photo, index }) => {
-  //   setCurrentImage(index);
-  //   setViewerIsOpen(true);
-  // }, []);
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
 
-  // const closeLightbox = () => {
-  //   setCurrentImage(0);
-  //   setViewerIsOpen(false);
-  // };
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
 
   // const captionStyle = {
   //   fontSize: "2em",
@@ -66,7 +82,7 @@ function GardenGallery() {
 
   return (
     <div>
-      {/* <div className="container">
+      <div className="container">
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
@@ -82,8 +98,8 @@ function GardenGallery() {
             </Modal>
           ) : null}
         </ModalGateway>
-      </div> */}
-      <div className="container">
+      </div>
+      {/* <div className="container">
         <Carousel
           data={data}
           time={4000}
@@ -109,7 +125,7 @@ function GardenGallery() {
             margin: "40px auto",
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

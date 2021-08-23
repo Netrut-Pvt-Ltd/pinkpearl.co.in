@@ -46,8 +46,8 @@ class Index3 extends Component {
               </p>
             </div>
             <div className="row">
-              <div className="col-lg-8">
-                <div className="marriage-image">
+              <div className="col-lg-6">
+                <div className="marriage-image m-b10">
                   <img
                     src={require("./../../images/product/marriage/marriage-1.jpg")}
                     alt=""
@@ -55,8 +55,8 @@ class Index3 extends Component {
                   />
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="marriage-list">
+              <div className="col-lg-6 ">
+                <div className="marriage-list m-b10">
                   <ul className="list-unstyled ">
                     <li>
                       <h6 style={{ color: "rgb(127 118 118)" }}>
@@ -152,6 +152,34 @@ class Index3 extends Component {
                 its repertoire a number of 5 star wedding venues which are best
                 for planning a destination wedding in Jaipur.
               </p>
+              <div className="marriage-boxes">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 m-b30">
+                    <img
+                      src={require("./../../images/product/marriage/marriage-3.jpg")}
+                      alt=""
+                      style={{
+                        objectFit: "cover",
+                        cursor: "pointer",
+                        height: "300px",
+                        width: "100%",
+                      }}
+                    />
+                  </div>
+                  <div className="col-lg-6 col-md-6 m-b30">
+                    <img
+                      src={require("./../../images/product/marriage/marriage-4.jpg")}
+                      alt=""
+                      style={{
+                        objectFit: "cover",
+                        cursor: "pointer",
+                        height: "300px",
+                        width: "100%",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
               <p style={{ color: "rgb(127 118 118)" }}>
                 Pink Pearl Marriage garden, the sister concern of Chokhi Dhani
                 Group, is a name renowned as one of the most Beautiful wedding
