@@ -8,6 +8,8 @@ import Footer2 from "./../Layout/Footer2";
 
 // import Tab from "./../Pages/Tab";
 import Owl2 from "./../Element/Owl2";
+import Ourmenustyle1 from "./Ourmenustyle1";
+import Menuitem from "../Element/Menuitem";
 
 // var img1 = require("./../../images/overlay/pt1.jpg");
 

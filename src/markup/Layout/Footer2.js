@@ -20,7 +20,7 @@ class Footer2 extends Component {
                       <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                      <Link to={"/about-2"}>About Us</Link>
+                      <Link to={"/about-1"}>About Us</Link>
                     </li>
                     {/* <li>
                       <Link to={"/faq"}>Faq</Link>

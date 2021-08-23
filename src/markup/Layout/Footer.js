@@ -109,27 +109,27 @@ class Footer extends Component {
                     <li>
                       <Link to={"/about-1"}>About</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={"/our-menu-1"}>Our Menu</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link to={"/faq"}>FAQ</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link to={"/blog-grid-2"}>Blog</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link to={"/shop"}>Shop</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to={"/contact-1"}>Contact</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={"/team"}>Team</Link>
                     </li>
                     <li>
                       <Link to={"/calendar"}>Calendar</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

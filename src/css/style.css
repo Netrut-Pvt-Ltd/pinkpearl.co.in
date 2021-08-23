@@ -14902,3 +14902,41 @@ ul.nav.navbar-nav li.active {
   object-fit: cover;
   margin-bottom: 15px;
 }
+
+.about-thumb img {
+  position: relative;
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+.about-thumb img:hover {
+  /* animation: skew 3s;
+  transform: skew(20deg);
+  animation-direction: alternate; */
+  transform: rotate(7deg);
+  transition: all ease 2s;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+.about-thumb h3 {
+  position: absolute;
+  top: 41%;
+  color: white;
+  /* font-size: 20px; */
+  left: 5%;
+  text-align: center;
+  right: 0%;
+}
+@media (max-width: 992px) {
+  .about-thumb h3 {
+    font-size: 20px;
+    left: 12%;
+  }
+}
