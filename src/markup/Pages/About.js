@@ -6,6 +6,7 @@ import OurPartners from "./../Element/OurPartners";
 import CountUp from "react-countup";
 
 var bgimg1 = require("./../../images/main-slider/pink-slider1.jpg");
+var bgimg2 = require("./../../images/product/chokha-punjab/chokha-dine2.jpg");
 var img2 = require("./../../images/background/bg1.jpg");
 var img3 = require("./../../images/background/bg5.jpg");
 var img4 = require("./../../images/background/bg3.jpg");
@@ -92,7 +93,7 @@ class About extends Component {
                         promoter and preserver of traditional heritage
                         hospitality of Rajasthani culture.
                       </p>
-                      <p>
+                      {/* <p>
                         Chokhi Dhani is a five star ethnic village resort with
                         an exquisite Rajasthani touch that makes it unique and
                         more enjoyable. Chokhi Dhani is a perfect place for a
@@ -130,10 +131,102 @@ class About extends Component {
                         family outings, picnics, for corporate meets, birthday
                         bashes, wedding receptions, functions & for quiet family
                         get-togethers.
-                      </p>
+                      </p> */}
+                    </div>
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-lg-6  m-b30">
+                          <div className="about-cp-image">
+                            <img
+                              src={require("./../../images/product/chokha-punjab/chokha-dine1.jpg")}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div className="col-lg-6  m-b30">
+                          <div className="about-cp-text">
+                            <p>
+                              Chokhi Dhani is a five star ethnic village resort
+                              with an exquisite Rajasthani touch that makes it
+                              unique and more enjoyable. Chokhi Dhani is a
+                              perfect place for a weekend, you can experience
+                              the whole Rajasthan here. Staying in the ethnic
+                              huts, eating delicious food in traditional style,
+                              enjoying the folk music and dance performance.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-lg-6  m-b30">
+                          <div className="about-cp-text">
+                            <p>
+                              Pink Pearl Hotel & Fun City is located 16 kms.
+                              from the city center on Jaipur Ajmer Expressway in
+                              the proximity of multi-commodity Special Economic
+                              Zone (SEZ) from Mahindra & Mahindra. Pink Pearl
+                              provides comfortable, elegant rooms for guest
+                              accommodation and amusement games and activities
+                              to make their stay memorable and full of fun. It
+                              is an ideal spot for family outings, picnics, for
+                              corporate meets, birthday bashes, wedding
+                              receptions, functions & for quiet family
+                              get-togethers.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-lg-6  m-b30">
+                          <div className="about-cp-image">
+                            <img
+                              src={require("./../../images/product/pink-pearl/pink-pearl.jpg")}
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                <div className="cp-content">
+                  <div
+                    className="content-inner "
+                    style={{
+                      backgroundImage: `linear-gradient(
+					90deg
+					,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url( ${bgimg2}  )`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "5% 28%",
+                      width: "100%",
+                    }}
+                  >
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-lg-12">
+                          <div className="section-head text-center text-white">
+                            <p>
+                              Chokhi Dhani Group is synonymous with Rajasthani
+                              village themed hospitality since 1990. Since
+                              December of 1994, the 5 Star Chokhi Dhani Resort &
+                              Hotel in Jaipur has been serving international and
+                              local travelers. Under guidance of Chairman Mr.
+                              Gul Vaswani and Managing Director Mr. Subhash
+                              Vaswani Chokhi Dhani Group has emerged as a unique
+                              hospitality chain due to its commitment to provide
+                              guests with unique experience of Rajasthani
+                              culture. The pride of Rajasthan and India Chokhi
+                              Dhani Group can easily boast itself as a great
+                              promoter and preserver of traditional heritage
+                              hospitality of Rajasthani culture.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="row sp30">
                   <div className="col-lg-4 col-md-4 m-b30">
                     <div className="about-thumb">
