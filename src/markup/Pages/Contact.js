@@ -238,9 +238,9 @@ class Contact extends Component {
                   <GoogleMaps
                     apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
                     style={{ height: "500px", width: "100%" }}
-                    zoom={6}
-                    center={{ lat: 37.4224764, lng: -122.0842499 }}
-                    markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
+                    zoom={12}
+                    center={{ lat: 26.860677124696, lng: 75.66866838341656 }}
+                    markers={{ lat: 26.860677124696, lng: 75.66866838341656 }} //optional
                   />
                 </div>
               </div>

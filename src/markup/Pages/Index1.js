@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 // import OurPartners from "./../Element/OurPartners";
 import Slider from "./../Element/Slider";
-import Accord from "./../Element/Accord";
-
+// import Accord from "./../Element/Accord";
+import GoogleMaps from "simple-react-google-maps";
 //Images
 var img1 = require("./../../images/background/bg5.jpg");
 // var serblog1 = require("./../../images/our-services/pic1.jpg");
@@ -359,8 +359,14 @@ class Index1 extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-6 m-b30">
-                    <Accord />
+                  <div className="col-lg-6 ">
+                    <GoogleMaps
+                      apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
+                      style={{ height: "560px", width: "100%" }}
+                      zoom={12}
+                      center={{ lat: 26.860677124696, lng: 75.66866838341656 }}
+                      markers={{ lat: 26.860677124696, lng: 75.66866838341656 }} //optional
+                    />
                   </div>
                 </div>
               </div>
