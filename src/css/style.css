@@ -11017,10 +11017,10 @@ ul[class*="list-"] {
   position: relative;
   overflow: hidden;
 }
-.dlab-media img,
-.dlab-post-media img {
+.dlab-media img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
 }
 /* Box Background */
 .dlab-box-bg {
@@ -14964,4 +14964,9 @@ ul.nav.navbar-nav li.active {
   .about-cp-text p {
     line-height: 22px !important;
   }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
 }

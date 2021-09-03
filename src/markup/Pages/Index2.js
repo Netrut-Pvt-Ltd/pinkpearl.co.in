@@ -43,7 +43,7 @@ class Index2 extends Component {
                       <div className="adv-box">
                         <Link to={"/shop-sidebar"}>
                           <img
-                            src={require("./../../images/ads/hotel-ad3.jpg")}
+                            src={require("./../../images/ads/hotel2.jpg")}
                             alt=""
                           />
                         </Link>
@@ -79,7 +79,7 @@ class Index2 extends Component {
             <div className="row sp0">
               <div className="col-lg-6">
                 <img
-                  src={require("./../../images/ads/hotel-ad6.jpg")}
+                  src={require("./../../images/ads/coffee_shop.jpeg")}
                   alt=""
                   className="img-cover"
                 />

@@ -20,7 +20,7 @@ var attraction1 = require("./../../images/background/attraction1.jpg");
 var attraction2 = require("./../../images/background/attraction2.jpg");
 var attraction3 = require("./../../images/background/attraction3.jpg");
 var attraction4 = require("./../../images/background/attraction4.jpg");
-var pinkImg = require("./../../images/main-slider/pink-slider1.jpg");
+var pinkImg = require("./../../images/main-slider/tex_7902.jpeg");
 // var about1 = require("./../../images/about/about1.jpg");
 
 const blogNews = [
@@ -198,7 +198,7 @@ class Index1 extends Component {
                 <div className="row">
                   <div className="col-lg-4 m-b30">
                     <img
-                      src={require("./../../images/about/about1.jpg")}
+                      src={require("./../../images/about/tex_7910.jpeg")}
                       className="img-cover radius-sm"
                       alt=""
                     />
@@ -378,12 +378,12 @@ class Index1 extends Component {
                     <div className="port-box1 text-white">
                       <div className="dlab-media">
                         <img
-                          src={require("./../../images/our-work/ourwork1.jpg")}
+                          src={require("./../../images/our-work/lazy_river.jpeg")}
                           alt=""
                         />
                       </div>
                       <div className="dlab-info">
-                        <h2 className="title">Water Park</h2>
+                        <h2 className="title">Lazy River</h2>
                       </div>
                     </div>
                   </div>
@@ -391,12 +391,12 @@ class Index1 extends Component {
                     <div className="port-box1 text-white">
                       <div className="dlab-media">
                         <img
-                          src={require("./../../images/our-work/ourwork2.jpg")}
+                          src={require("./../../images/our-work/columbus.jpeg")}
                           alt=""
                         />
                       </div>
                       <div className="dlab-info">
-                        <h2 className="title">Adventure Park</h2>
+                        <h2 className="title">Columbus</h2>
                       </div>
                     </div>
                   </div>
@@ -404,12 +404,12 @@ class Index1 extends Component {
                     <div className="port-box1 text-white">
                       <div className="dlab-media">
                         <img
-                          src={require("./../../images/our-work/ourwork3.jpg")}
+                          src={require("./../../images/our-work/wave_pool.jpeg")}
                           alt=""
                         />
                       </div>
                       <div className="dlab-info">
-                        <h2 className="title">Water Sports</h2>
+                        <h2 className="title">Wave Pool</h2>
                       </div>
                     </div>
                   </div>
@@ -417,12 +417,12 @@ class Index1 extends Component {
                     <div className="port-box1 text-white m-md-b0 m-sm-b0">
                       <div className="dlab-media">
                         <img
-                          src={require("./../../images/our-work/ourwork3.jpg")}
+                          src={require("./../../images/our-work/rain_dance.jpeg")}
                           alt=""
                         />
                       </div>
                       <div className="dlab-info">
-                        <h2 className="title">Rides</h2>
+                        <h2 className="title">Rain</h2>
                       </div>
                     </div>
                   </div>
@@ -501,7 +501,7 @@ class Index1 extends Component {
                   <div className="col-lg-6 p-lr0">
                     <img
                       className="img-cover"
-                      src={require("./../../images/about/about1.jpg")}
+                      src={require("./../../images/about/park.jpeg")}
                       alt=""
                     />
                   </div>

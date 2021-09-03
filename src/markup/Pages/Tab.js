@@ -118,7 +118,7 @@ const Popupss = (props) => {
                   }}
                 >
                   <i className="flaticon-sandwich"></i>
-                  <span>Discotheque Cum Bar</span>
+                  <span>Discotheque </span>
                 </Link>
               </li>
             </ul>
@@ -262,7 +262,7 @@ const Popupss = (props) => {
                     <div className="item-box shop-item style2">
                       <div className="item-img">
                         <img
-                          src={require("./../../images/product/hotel/egyptian-restaurant.jpg")}
+                          src={require("./../../images/product/hotel/egyptian3.jpeg")}
                           alt=""
                         />
                       </div>
@@ -452,7 +452,7 @@ const Popupss = (props) => {
                     <div className="item-box shop-item style2">
                       <div className="item-img">
                         <img
-                          src={require("./../../images/product/hotel/gothic-rasturant.jpg")}
+                          src={require("./../../images/product/hotel/cinnemon2.jpeg")}
                           alt=""
                         />
                       </div>
@@ -526,7 +526,7 @@ const Popupss = (props) => {
                     <div className="item-info">
                       <h2 className="item-title">
                         {/* <Link to={"/shop-product-details"}>Hotel Room</Link> */}
-                        Discotheque Cum Bar
+                        Discotheque
                       </h2>
                       <p className="price text-justify">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,

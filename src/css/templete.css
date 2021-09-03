@@ -19,7 +19,8 @@
 }
 
 .main-slider .slide {
-  height: 800px;
+  /* height: 800px; */
+  /* height: 700px; */
   background-position: center;
   position: relative;
   background-size: cover;
@@ -2464,7 +2465,8 @@ td.fc-event-container {
     width: 150px;
   }
   .main-slider .slide {
-    height: 650px;
+    /* height: 513px; */
+    /* height: 650px; */
   }
   .main-slider .title {
     font-size: 80px;
@@ -2804,7 +2806,7 @@ td.fc-event-container {
     padding: 50px 0 30px;
   }
   .main-slider .slide {
-    height: 500px;
+    /* height: 423px; */
   }
   .logo-header {
     width: 120px;
@@ -3029,7 +3031,7 @@ td.fc-event-container {
     line-height: 18px;
   }
   .main-slider .slide {
-    height: 450px;
+    /* height: 325px; */
   }
   .logo-header {
     width: 120px;

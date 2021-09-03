@@ -15,77 +15,25 @@ class Slider extends Component {
           <Carousel.Item>
             <div
               className="slide"
-              style={{
-                backgroundImage: `linear-gradient(
-                  90deg
-                  ,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url( ${pinkslider1} )`,
-                // filter: "brightness(77%)",
-              }}
+              // style={{
+              //   backgroundImage: `linear-gradient(
+              //     90deg
+              //     ,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url( ${pinkslider1} )`,
+              //   // filter: "brightness(77%)",
+              // }}
             >
+              <video autoPlay muted loop style={{ width: "100vw" }}>
+                <source
+                  src={require("./../../images/main-slider/slider_video.mp4")}
+                  type="video/mp4"
+                />
+              </video>
               {/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
               <div className="content">
                 <span>Water Park</span>
                 <h2 className="title">Welcome To Pink Pearl</h2>
                 <h4 className="sub-title">The Best Water Park In Jaipur</h4>
                 <Link to={"/contact-1"} className="btn btnhover">
-                  About Us
-                </Link>
-                {/* <Link
-                  to={""}
-                  className="btn white"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                >
-                  Subscribe Now
-                </Link> */}
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div
-              className="slide"
-              style={{
-                backgroundImage: `linear-gradient(
-                  90deg
-                  ,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url( ${pinkslider3} )`,
-                // filter: "brightness(77%)",
-              }}
-            >
-              {/* <img className="d-block w-100 slider"	src={require('./../../images/main-slider/slide2.jpg')}	alt="Second slide"	/> */}
-              <div className="content">
-                <span>Water Park</span>
-                <h2 className="title">Welcome To Pink Pearl</h2>
-                <h4 className="sub-title">The Best Water Park In Jaipur</h4>
-                <Link to={"/about-1"} className="btn btnhover">
-                  About Us
-                </Link>
-                {/* <Link
-                  to={""}
-                  className="btn white"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                >
-                  Subscribe Now
-                </Link> */}
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div
-              className="slide"
-              style={{
-                backgroundImage: `linear-gradient(
-                  90deg
-                  ,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url( ${pinkslider2} )`,
-                // filter: "brightness(77%)",
-              }}
-            >
-              {/* <img className="d-block w-100 slider"	src={require('./../../images/main-slider/slide2.jpg')}	alt="Second slide"	/> */}
-              <div className="content">
-                <span>Water Park</span>
-                <h2 className="title">Welcome To Pink Pearl</h2>
-                <h4 className="sub-title">The Best Water Park In Jaipur</h4>
-                <Link to={"/about-1"} className="btn btnhover">
                   About Us
                 </Link>
                 {/* <Link
