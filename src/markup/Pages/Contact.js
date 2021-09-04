@@ -6,7 +6,7 @@ import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 
 var bgimg1 = require("./../../images/main-slider/pink-slider1.jpg");
-var bgimg2 = require("./../../images/background/bg5.jpg");
+var bgimg2 = require("./../../images/background/bg11.jpeg");
 
 class Contact extends Component {
   render() {
