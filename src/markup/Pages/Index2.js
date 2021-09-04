@@ -8,7 +8,7 @@ import Footer2 from "./../Layout/Footer2";
 import Tab from "./../Pages/Tab";
 import Owl2 from "./../Element/Owl2";
 
-var img1 = require("./../../images/overlay/pt1.jpg");
+// var img1 = require("./../../images/overlay/pt1.jpg");
 
 class Index2 extends Component {
   render() {
@@ -21,7 +21,7 @@ class Index2 extends Component {
 
           <div
             className="section-full content-inner bg-white"
-            style={{ backgroundImage: "url(" + img1 + ")" }}
+            // style={{ backgroundImage: "url(" + img1 + ")" }}
           >
             <Tab />
             <div className="container">

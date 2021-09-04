@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-var img = require("./../../images/overlay/pt1.jpg");
+// var img = require("./../../images/overlay/pt1.jpg");
 
 const responsive = {
   superLargeDesktop: {
@@ -28,7 +28,7 @@ class Owl2 extends Component {
     return (
       <div
         className="section-full bg-white content-inner-2"
-        style={{ backgroundImage: "url(" + img + " )" }}
+        // style={{ backgroundImage: "url(" + img + " )" }}
       >
         <div className="container">
           <div className="section-head style-2 text-center">

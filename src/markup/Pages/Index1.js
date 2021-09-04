@@ -8,13 +8,13 @@ import Slider from "./../Element/Slider";
 // import Accord from "./../Element/Accord";
 // import GoogleMaps from "simple-react-google-maps";
 //Images
-var img1 = require("./../../images/background/bg5.jpg");
+var img1 = require("./../../images/background/bg11.jpeg");
 // var serblog1 = require("./../../images/our-services/pic1.jpg");
 // var serblog2 = require("./../../images/our-services/pic2.jpg");
 // var serblog3 = require("./../../images/our-services/pic3.jpg");
 // var serblog4 = require("./../../images/our-services/pic4.jpg");
-var img2 = require("./../../images/background/bg1.jpg");
-var img3 = require("./../../images/background/bg5.jpg");
+var img2 = require("./../../images/background/bg11.jpeg");
+var img3 = require("./../../images/background/bg11.jpeg");
 // var img4 = require("./../../images/background/bg4.jpg");
 var attraction1 = require("./../../images/background/attraction1.jpg");
 var attraction2 = require("./../../images/background/attraction2.jpg");
