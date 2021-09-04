@@ -48,11 +48,13 @@ import Contact from "./Pages/Contact";
 import Contact2 from "./Pages/Contact2";
 import Index4 from "./Pages/Index4";
 import Career from "./Element/Career";
+import ScrollToTop from "./ScrollToTop";
 
 class Markup extends Component {
   render() {
     return (
       <BrowserRouter basename="/react">
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Index1} />
           <Route path="/index-2" exact component={Index2} />

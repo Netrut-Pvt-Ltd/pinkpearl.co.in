@@ -48,7 +48,7 @@ export class Index4Slider extends Component {
                     </div> */}
 
                     <Link
-                      to={""}
+                      to={"/contact-1"}
                       className="btn white"
                       data-target="#exampleModal"
                     >

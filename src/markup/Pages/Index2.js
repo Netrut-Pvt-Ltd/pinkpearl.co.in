@@ -28,7 +28,7 @@ class Index2 extends Component {
               <div className="row">
                 <div className="col-lg-6 col-md-12">
                   <div className="adv-box">
-                    <Link to={"/shop-sidebar"}>
+                    <Link>
                       <img
                         src={require("./../../images/ads/hotel-ad4.jpg")}
                         alt=""
@@ -41,7 +41,7 @@ class Index2 extends Component {
                   <div className="row">
                     <div className="col-lg-6 col-md-6">
                       <div className="adv-box">
-                        <Link to={"/shop-sidebar"}>
+                        <Link>
                           <img
                             src={require("./../../images/ads/hotel2.jpg")}
                             alt=""
@@ -51,7 +51,7 @@ class Index2 extends Component {
                     </div>
                     <div className="col-lg-6 col-md-6">
                       <div className="adv-box">
-                        <Link to={"/shop-sidebar"}>
+                        <Link>
                           <img
                             src={require("./../../images/ads/hotel-ad2.jpg")}
                             alt=""
@@ -61,7 +61,7 @@ class Index2 extends Component {
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <div className="adv-box">
-                        <Link to={"/shop-sidebar"}>
+                        <Link>
                           <img
                             src={require("./../../images/ads/hotel-ad6.jpg")}
                             alt=""

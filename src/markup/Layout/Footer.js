@@ -29,15 +29,20 @@ class Footer extends Component {
                     </li>
                     <li>
                       <i className="fa fa-phone"></i>
-                      <p>91+000000000</p>
+                      <p>+91-7410994999</p>
                     </li>
                     <li>
                       <i className="fa fa-mobile"></i>
-                      <p>(+91) 000000000</p>
+                      <p>+91-7410885888</p>
                     </li>
                     <li>
                       <i className="fa fa-envelope"></i>
-                      <p>info@example.com</p>
+                      <p style={{ textTransform: "lowercase" }}>
+                        <a href="#" style={{ color: "#fff" }}>
+                          {" "}
+                          front_office@pinkpearl.co.in
+                        </a>
+                      </p>
                     </li>
                   </ul>
                 </div>

@@ -37,7 +37,7 @@ class Banner extends Component {
                   </p>
 
                   <Link
-                    to={""}
+                    to={"/contact-1"}
                     className="btn white"
                     data-target="#exampleModal"
                   >

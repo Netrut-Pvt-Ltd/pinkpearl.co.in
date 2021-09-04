@@ -76,10 +76,10 @@ class Index4 extends Component {
                         magna aliqua eiusmod tempor incididunt ut labore et
                         dolore magna aliqua.
                       </p>
-                      <a href="#" style={{ color: "#5fcac7" }}>
+                      <Link to={"/contact-1"} style={{ color: "#5fcac7" }}>
                         Book Now{" "}
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -99,10 +99,10 @@ class Index4 extends Component {
                         magna aliqua eiusmod tempor incididunt ut labore et
                         dolore magna aliqua.
                       </p>
-                      <a href="#" style={{ color: "#5fcac7" }}>
+                      <Link to={"/contact-1"} style={{ color: "#5fcac7" }}>
                         Book Now{" "}
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-8 col-md-8 ">
@@ -159,7 +159,7 @@ class Index4 extends Component {
                       <div className="col-lg-3 col-md-3">
                         <div className="menu-image">
                           <img
-                            src={require("./../../images/product/chokha-punjab/cp-food2.jpg")}
+                            src={require("./../../images/product/chokha-punjab/WELCOME-DRINK1.jpg")}
                           />
                         </div>
                       </div>
@@ -176,7 +176,9 @@ class Index4 extends Component {
                             WELCOME DRINKS/SOUP
                           </h3>
 
-                          <p>Enjoy. Coke side of life. Create your own break</p>
+                          <p>
+                            Enjoy. Lassi side of life. Create your own break
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -434,7 +436,7 @@ class Index4 extends Component {
                       <div className="col-lg-3 col-md-3">
                         <div className="menu-image">
                           <img
-                            src={require("./../../images/product/chokha-punjab/cp-food11.jpg")}
+                            src={require("./../../images/product/chokha-punjab/desseret1.jpg")}
                           />
                         </div>
                       </div>
@@ -510,10 +512,21 @@ class Index4 extends Component {
                         </div> */}
                       </div>
                       <p>
-                        <strong> Adult - ₹ 349 </strong>
+                        <strong> Adult - ₹ 450 </strong>
+                        <p>(Above 3.6 Feet)</p>
                       </p>
                       <p>
-                        <strong> Child - ₹ 249 </strong>
+                        <strong> Child - ₹ 300 </strong>
+                        <p>(2.6 Feet to 3.6 Feet)</p>
+                      </p>
+                      <p>Kids Free Below 2.6 Feet Height</p>
+                      <h5
+                        style={{ color: "rgb(255 0 76)", fontWeight: "bold" }}
+                      >
+                        Sunday ₹ 500 For Adult and ₹ 300 For Kids
+                      </h5>
+                      <p style={{ color: "rgb(255 0 76)" }}>
+                        All Taxes Inclusive
                       </p>
                       <p>
                         CHOKHA PUNJAB - We would like to introduce our one of

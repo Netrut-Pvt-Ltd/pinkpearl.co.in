@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
-import OurPartners from "./../Element/OurPartners";
-import CountUp from "react-countup";
+// import OurPartners from "./../Element/OurPartners";
+// import CountUp from "react-countup";
 
 var bgimg1 = require("./../../images/main-slider/pink-slider1.jpg");
 var bgimg2 = require("./../../images/product/chokha-punjab/chokha-dine2.jpg");
 var img2 = require("./../../images/background/bg1.jpg");
 var img3 = require("./../../images/background/bg5.jpg");
-var img4 = require("./../../images/background/bg3.jpg");
+// var img4 = require("./../../images/background/bg3.jpg");
 
 const teamInfo = [
   {
@@ -284,7 +284,7 @@ class About extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="row max-w900 m-auto">
+                {/* <div className="row max-w900 m-auto">
                   <div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
                     <div className="counter-style-1 text-white text-center">
                       <div className="counter-num">
@@ -327,7 +327,7 @@ class About extends Component {
                       <span className="counter-text">Perfect Products</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 

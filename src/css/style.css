@@ -14970,3 +14970,9 @@ ul.nav.navbar-nav li.active {
 .carousel-control-prev {
   display: none;
 }
+.about-bx p {
+  margin-bottom: 4px;
+}
+.about-bx h5 {
+  margin-bottom: 0px;
+}

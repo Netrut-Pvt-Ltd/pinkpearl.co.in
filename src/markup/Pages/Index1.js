@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import Header from "./../Layout/Header";
 import Footer from "./../Layout/Footer";
 import { Link } from "react-router-dom";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 // import OurPartners from "./../Element/OurPartners";
 import Slider from "./../Element/Slider";
 // import Accord from "./../Element/Accord";
-import GoogleMaps from "simple-react-google-maps";
+// import GoogleMaps from "simple-react-google-maps";
 //Images
 var img1 = require("./../../images/background/bg5.jpg");
 // var serblog1 = require("./../../images/our-services/pic1.jpg");
@@ -60,46 +60,24 @@ class Index1 extends Component {
                     <div
                       className="icon-bx-wraper text-center service-box1"
                       style={{
-                        backgroundImage: "url(" + attraction1 + ")",
+                        backgroundImage: "url(" + attraction4 + ")",
                         backgroundRepeat: "no-repeat",
                       }}
                     >
                       <div className="icon-content">
-                        <h2 className="dlab-tilte text-white">Attractions</h2>
-                        {/* <p>Lorem Ipsum is simply</p> */}
+                        <h2 className="dlab-tilte text-white">
+                          Thematic Areas
+                        </h2>
+                        {/* <p>Lorem Ipsum is simply </p> */}
                         <div className="dlab-separator style1 bg-primary"></div>
-                        <Link
-                          to={"/shop-product-details"}
-                          className="btn btnhover"
-                        >
+                        <Link to={"/contact-1"} className="btn btnhover">
                           More details{" "}
                           <i className="fa fa-angle-double-right m-l5"></i>
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                    <div
-                      className="icon-bx-wraper text-center service-box1"
-                      style={{
-                        backgroundImage: "url(" + attraction2 + ")",
-                        backgroundRepeat: "no-repeat",
-                      }}
-                    >
-                      <div className="icon-content">
-                        <h2 className="dlab-tilte text-white">Chokha Punjab</h2>
-                        {/* <p>Lorem Ipsum is simply</p> */}
-                        <div className="dlab-separator style1 bg-primary"></div>
-                        <Link
-                          to={"/shop-product-details"}
-                          className="btn btnhover"
-                        >
-                          More details{" "}
-                          <i className="fa fa-angle-double-right m-l5"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
@@ -112,34 +90,47 @@ class Index1 extends Component {
                         <h2 className="dlab-tilte text-white">Hotel</h2>
                         {/* <p>Lorem Ipsum is simply </p> */}
                         <div className="dlab-separator style1 bg-primary"></div>
-                        <Link
-                          to={"/shop-product-details"}
-                          className="btn btnhover"
-                        >
+                        <Link to={"/contact-1"} className="btn btnhover">
                           More details{" "}
                           <i className="fa fa-angle-double-right m-l5"></i>
                         </Link>
                       </div>
                     </div>
                   </div>
+
                   <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="icon-bx-wraper text-center service-box1"
                       style={{
-                        backgroundImage: "url(" + attraction4 + ")",
+                        backgroundImage: "url(" + attraction2 + ")",
                         backgroundRepeat: "no-repeat",
                       }}
                     >
                       <div className="icon-content">
-                        <h2 className="dlab-tilte text-white">
-                          Thematic Areas
-                        </h2>
-                        {/* <p>Lorem Ipsum is simply </p> */}
+                        <h2 className="dlab-tilte text-white">Chokha Punjab</h2>
+                        {/* <p>Lorem Ipsum is simply</p> */}
                         <div className="dlab-separator style1 bg-primary"></div>
-                        <Link
-                          to={"/shop-product-details"}
-                          className="btn btnhover"
-                        >
+                        <Link to={"/contact-1"} className="btn btnhover">
+                          More details{" "}
+                          <i className="fa fa-angle-double-right m-l5"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div
+                      className="icon-bx-wraper text-center service-box1"
+                      style={{
+                        backgroundImage: "url(" + attraction1 + ")",
+                        backgroundRepeat: "no-repeat",
+                      }}
+                    >
+                      <div className="icon-content">
+                        <h2 className="dlab-tilte text-white">Attractions</h2>
+                        {/* <p>Lorem Ipsum is simply</p> */}
+                        <div className="dlab-separator style1 bg-primary"></div>
+                        <Link to={"/contact-1"} className="btn btnhover">
                           More details{" "}
                           <i className="fa fa-angle-double-right m-l5"></i>
                         </Link>
@@ -210,7 +201,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon2.png")}
+                                src={require("./../../images/icons/service-icon/park.png")}
                                 alt=""
                               />
                             </Link>
@@ -226,7 +217,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon3.png")}
+                                src={require("./../../images/icons/service-icon/army_obstacle.png")}
                                 alt=""
                               />
                             </Link>
@@ -242,7 +233,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon4.png")}
+                                src={require("./../../images/icons/service-icon/ride.png")}
                                 alt=""
                               />
                             </Link>
@@ -258,7 +249,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon5.png")}
+                                src={require("./../../images/icons/service-icon/water-sports.png")}
                                 alt=""
                               />
                             </Link>
@@ -274,7 +265,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon5.png")}
+                                src={require("./../../images/icons/service-icon/locker.png")}
                                 alt=""
                               />
                             </Link>
@@ -290,7 +281,7 @@ class Index1 extends Component {
                           <div className="icon-bx">
                             <Link to={""} className="icon-cell">
                               <img
-                                src={require("./../../images/icons/service-icon/icon1.png")}
+                                src={require("./../../images/icons/service-icon/food.png")}
                                 alt=""
                               />
                             </Link>
@@ -344,14 +335,9 @@ class Index1 extends Component {
                           been the industry's standard dummy text ever since the
                           1500s, when an unknown printer took.
                         </p>
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley.
-                        </p>
+
                         <Link
-                          to={"/faq"}
+                          to={"/contact-1"}
                           className="btn btn-md btnhover shadow m-t30"
                         >
                           <i className="fa fa-angle-right m-r10"></i>Get Started
@@ -360,13 +346,14 @@ class Index1 extends Component {
                     </div>
                   </div>
                   <div className="col-lg-6 ">
-                    <GoogleMaps
-                      apiKey={"AIzaSyBbHk3eFodSk_DSGzv8dd_dIJpZvVDyg4s "}
-                      style={{ height: "560px", width: "100%" }}
-                      zoom={12}
-                      center={{ lat: 26.860677124696, lng: 75.66866838341656 }}
-                      markers={{ lat: 26.860677124696, lng: 75.66866838341656 }} //optional
-                    />
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.35073018695!2d75.66644751436459!3d26.860595768799605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4b080880d75d%3A0xd9071e47110005da!2sPink%20Pearl%20Resort%20and%20Fun%20City!5e0!3m2!1sen!2sin!4v1630752681362!5m2!1sen!2sin"
+                      width="600"
+                      height="450"
+                      style={{ border: "0" }}
+                      allowfullscreen=""
+                      loading="lazy"
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -451,7 +438,7 @@ class Index1 extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
                     <div className="counter-style-1 text-center">
                       <div className="counter-num text-primary">
@@ -494,7 +481,7 @@ class Index1 extends Component {
                       <span className="counter-text">Perfect Products</span>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="container">
                 <div className="row m-lr0 about-area1">
@@ -526,7 +513,7 @@ class Index1 extends Component {
                         Kids Rs 350 (Kids Height below 4.5ft)
                       </p>
                       <Link
-                        to={"about-1"}
+                        to={"/contact-1"}
                         className="btn-secondry white btnhover btn-md"
                       >
                         <i className="fa fa-cart"></i>GET NOW
@@ -560,16 +547,14 @@ class Index1 extends Component {
                     <div className="col-lg-4 col-md-6" key={index}>
                       <div className="blog-post blog-grid blog-rounded">
                         <div className="dlab-post-media dlab-img-effect">
-                          <Link to={"/blog-single-sidebar"}>
+                          <Link to={""}>
                             <img src={item.image} alt="" />
                           </Link>
                         </div>
                         <div className="dlab-info p-a25">
                           <div className="dlab-post-title">
                             <h4 className="post-title">
-                              <Link to={"/blog-single-sidebar"}>
-                                {item.title}
-                              </Link>
+                              <Link to={""}>{item.title}</Link>
                             </h4>
                           </div>
                           {/* <div className="dlab-post-meta">
