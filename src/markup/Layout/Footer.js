@@ -61,9 +61,7 @@ class Footer extends Component {
                       <div className="dlab-post-info">
                         <div className="dlab-post-header">
                           <h6 className="post-title">
-                            <Link to={"/blog-single"}>
-                              Pink Pearl Water Park
-                            </Link>
+                            <Link>Pink Pearl Water Park</Link>
                           </h6>
                         </div>
                         <div className="dlab-post-meta">
@@ -87,7 +85,7 @@ class Footer extends Component {
                       <div className="dlab-post-info">
                         <div className="dlab-post-header">
                           <h6 className="post-title">
-                            <Link to={"blog-single"}>Pink Pearl Hotel</Link>
+                            <Link>Pink Pearl Hotel</Link>
                           </h6>
                         </div>
                         <div className="dlab-post-meta">
