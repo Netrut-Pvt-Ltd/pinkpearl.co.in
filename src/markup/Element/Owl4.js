@@ -23,7 +23,7 @@ const responsive = {
   },
 };
 
-class Owl2 extends Component {
+class Owl4 extends Component {
   render() {
     return (
       <div
@@ -139,4 +139,4 @@ class Owl2 extends Component {
   }
 }
 
-export default Owl2;
+export default Owl4;

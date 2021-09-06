@@ -10,6 +10,7 @@ import Footer2 from "./../Layout/Footer2";
 import Owl2 from "./../Element/Owl2";
 import Ourmenustyle1 from "./Ourmenustyle1";
 import Menuitem from "../Element/Menuitem";
+import Owl4 from "../Element/Owl4";
 
 // var img1 = require("./../../images/overlay/pt1.jpg");
 
@@ -520,14 +521,10 @@ class Index4 extends Component {
                         <p>(2.6 Feet to 3.6 Feet)</p>
                       </p>
                       <p>Kids Free Below 2.6 Feet Height</p>
-                      <h5
-                        style={{ color: "rgb(255 0 76)", fontWeight: "bold" }}
-                      >
+                      <h5 style={{ color: "#fff", fontWeight: "bold" }}>
                         Sunday ₹ 500 For Adult and ₹ 300 For Kids
                       </h5>
-                      <p style={{ color: "rgb(255 0 76)" }}>
-                        All Taxes Inclusive
-                      </p>
+                      <p>All Taxes Inclusive</p>
                       <p>
                         CHOKHA PUNJAB - We would like to introduce our one of
                         its kind restaurant CHOKHA PUNJAB -The Ethnic Punjabi
@@ -548,7 +545,7 @@ class Index4 extends Component {
               </div>
             </div>
 
-            <Owl2 />
+            <Owl4 />
           </div>
         </div>
         <Footer2 />

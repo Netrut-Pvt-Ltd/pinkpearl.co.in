@@ -7,6 +7,7 @@ import Header2 from "./../Layout/Header2";
 import Footer2 from "./../Layout/Footer2";
 import Tab from "./../Pages/Tab";
 import Owl2 from "./../Element/Owl2";
+import Owl3 from "../Element/Owl3";
 
 // var img1 = require("./../../images/overlay/pt1.jpg");
 
@@ -284,7 +285,7 @@ class Index2 extends Component {
             <img src={require("./../../images/ads/hotel-ads8.jpg")} alt="" />
           </div> */}
 
-          <Owl2 />
+          <Owl3 />
 
           <div className="section-full bg-primary p-tb50 newslatter-area">
             <div className="container">
