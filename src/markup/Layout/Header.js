@@ -105,7 +105,10 @@ class Header extends Component {
                     </ul> */}
                   </li>
                   <li>
-                    <Link to={"/index-4"}>Chokha Punjab</Link>
+                    {/* <Link to={"https://www.chokhapunjab.com/index.html"}>
+                      Chokha Punjab
+                    </Link> */}
+                    <a href="https://www.chokhapunjab.com/">Chokha Punjab</a>
                     {/* <ul className="sub-menu">
                       <li>
                         <Link to={"/our-menu-1"}>Menu Style 1</Link>

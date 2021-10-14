@@ -159,7 +159,14 @@ class Header2 extends Component {
                     </ul> */}
                   </li>
                   <li>
-                    <Link to={"/index-4"}>Chokha Punjab</Link>
+                    {/* <Link
+                      to={{
+                        pathname: "https://www.chokhapunjab.com/",
+                      }}
+                      target="_blank"
+                    > */}
+                    <a href="https://www.chokhapunjab.com/">Chokha Punjab</a>
+                    {/* </Link> */}
                     {/* <ul className="sub-menu">
                       <li>
                         <Link to={"/our-menu"}>Menu Style 1</Link>
