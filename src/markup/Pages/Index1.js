@@ -147,12 +147,12 @@ class Index1 extends Component {
                           alt=""
                         />
                       </div>
-                      <h3 className="text-primary">
-                        It’s a water park and you’re invited
-                      </h3>
+                      <h3 className="text-primary">You are invited!</h3>
                       <p className="main-text">
-                        Rajasthan’s biggest, best, most exhilarating
-                        <strong> water park</strong> and so much more.
+                        For your go to place to have a fun day in Pink City, we
+                        present to you Pink Pearl offering the most exhilarating
+                        experiences for a day full of adventures and time full
+                        of fond memories.
                       </p>
                       {/* <p>
                         Exclusive deals on Cakes, delivered straight to your
@@ -176,12 +176,17 @@ class Index1 extends Component {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="section-head text-center">
-                      <h2 className="text-white">What Do We Offer For You?</h2>
+                      <h2 className="text-white">
+                        What do we have in store for you?
+                      </h2>
                       <p className="text-white">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s
+                        Pink Pearl is a mélange of water slides, rides, pools,
+                        fun zones, eateries and much more for you to have a
+                        blast with your loved ones. Apart from this, one can
+                        plan to stay at Pink Pearl Hotel emanating utmost luxury
+                        and comfort.
                       </p>
+
                       <div className="dlab-separator style1 bg-primary"></div>
                     </div>
                   </div>
@@ -326,7 +331,7 @@ class Index1 extends Component {
                           amusement games and activities to make their stay
                           memorable and full of fun.
                         </p>
-                        <p className="text">
+                        {/* <p className="text">
                           First and foremost I am a chef, whether behind the
                           stove at one of my Northern California restaurants or
                           for the past 15 years in front of the Lorem Ipsum is
@@ -334,7 +339,7 @@ class Index1 extends Component {
                           printing and typesetting industry. Lorem Ipsum has
                           been the industry's standard dummy text ever since the
                           1500s, when an unknown printer took.
-                        </p>
+                        </p> */}
 
                         <Link
                           to={"/contact-1"}
@@ -437,6 +442,17 @@ class Index1 extends Component {
                       </div>
                       <h3>We Are Professional at Our Skills</h3>
                       <p>More than 2000+ customers trusted us</p>
+                      <p
+                        style={{
+                          fontSize: "32px",
+                          fontWeight: "200",
+                          lineHeight: "inherit",
+                        }}
+                      >
+                        Let the water splashes bring happiness in abundance
+                        while you have fun at Pink Pearl Fun City and Water
+                        Park.
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -30,9 +30,9 @@ class Slider extends Component {
               </video>
               {/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
               <div className="content">
-                <span>Water Park</span>
-                <h2 className="title">Welcome To Pink Pearl</h2>
-                <h4 className="sub-title">The Best Water Park In Jaipur</h4>
+                <span>Welcome To</span>
+                <h2 className="title">Pink Pearl Water Park & Fun City</h2>
+                <h4 className="sub-title">Jaipur's favourite water park</h4>
                 <Link to={"/about-1"} className="btn btnhover">
                   About Us
                 </Link>

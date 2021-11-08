@@ -43,7 +43,7 @@
   font-weight: 700;
 }
 .main-slider .title {
-  font-size: 100px;
+  font-size: 78px;
   color: #fff;
   line-height: 1;
   margin-bottom: 0;
@@ -3011,7 +3011,7 @@ td.fc-event-container {
     margin-bottom: 0;
   }
   .main-slider .title {
-    font-size: 32px;
+    font-size: 21px;
     line-height: 1.1;
   }
   .banner .title {
@@ -3024,7 +3024,7 @@ td.fc-event-container {
   .main-slider .sub-title {
     font-size: 16px;
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
   }
   .banner .info {
     font-size: 14px;
