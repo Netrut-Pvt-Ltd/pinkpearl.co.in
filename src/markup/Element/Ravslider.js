@@ -36,13 +36,13 @@ class Banner extends Component {
                     risus, a euismod.
                   </p>
 
-                  <Link
-                    to={"/contact-1"}
+                  <a
+                    href="https://chokhidhani.in/"
                     className="btn white"
                     data-target="#exampleModal"
                   >
                     Book Now
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
