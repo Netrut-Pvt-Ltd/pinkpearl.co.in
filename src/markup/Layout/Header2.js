@@ -309,10 +309,12 @@ class Header2 extends Component {
                 <div className="dlab-social-icon">
                   <ul>
                     <li>
-                      <Link
+                      {/* <Link
                         className="site-button sharp-sm fa fa-facebook"
                         to={""}
-                      ></Link>
+                      ></Link> */}
+                       <a href="https://www.facebook.com/HotelPinkPearlAndFunCity"  className="site-button sharp-sm fa fa-facebook"></a>
+                      
                     </li>
                     <li>
                       <Link

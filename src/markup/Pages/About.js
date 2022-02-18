@@ -189,7 +189,7 @@ class About extends Component {
                   </div>
                 </div>
 
-                <div className="cp-content">
+                {/* <div className="cp-content">
                   <div
                     className="content-inner "
                     style={{
@@ -225,7 +225,7 @@ class About extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="row sp30">
                   <div className="col-lg-4 col-md-4 m-b30">

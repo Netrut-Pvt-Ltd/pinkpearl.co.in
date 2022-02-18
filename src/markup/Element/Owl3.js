@@ -46,10 +46,7 @@ class Owl3 extends Component {
               <div className="testimonial-1">
                 <div className="testimonial-text">
                   <p>
-                    Well, the room was nice and staff was good. Especially the
-                    reception manager. The food is no doubt good and location is
-                    easily accessible be it from station or highway. Moreover my
-                    stay was very good
+                  I have stayed with Pink Pearl Hotel on my visit to Jaipur and I absolutely loved the hospitality. My room was super clean and sanitised and the staff was available as and when required. They were all so welcoming and the services are superb.
                   </p>
                 </div>
                 <div className="testimonial-pic radius">
@@ -61,76 +58,50 @@ class Owl3 extends Component {
                 </div>
                 <div className="testimonial-detail">
                   {" "}
-                  <strong className="testimonial-name">David Matin</strong>{" "}
+                  <strong className="testimonial-name">Pranav Das</strong>{" "}
                   {/* <span className="testimonial-position">Student</span>{" "} */}
                 </div>
               </div>
               <div className="testimonial-1">
                 <div className="testimonial-text">
                   <p>
-                    Amid these COVID situation, they ensure thorough hygiene and
-                    cleanliness with all SOPs and COVID protocols well adhered.
-                    Adjacent Chokha Punjab is a ++ for entertainment at night.
-                    Staff is helpful and prompt.
+                  My family and I stayed at Pink Pearl Hotel during a family wedding. All the arrangements were top-notch and we were delighted to receive such amazing service from the staff. I absolutely enjoyed the stay as well as a visit to Chokha Punjab. It's amazing!
                   </p>
                 </div>
                 <div className="testimonial-pic radius">
                   <img
-                    src={require("./../../images/testimonials/pic5.jpg")}
+                    src={require("./../../images/testimonials/member1.jpg")}
                     style={{ width: "100", height: "100" }}
                     alt=""
                   />
                 </div>
                 <div className="testimonial-detail">
                   {" "}
-                  <strong className="testimonial-name">David Matin</strong>{" "}
+                  <strong className="testimonial-name">Pankaj Singh</strong>{" "}
                   {/* <span className="testimonial-position">Student</span>{" "} */}
                 </div>
               </div>
               <div className="testimonial-1">
                 <div className="testimonial-text">
                   <p>
-                    Amid these COVID situation, they ensure thorough hygiene and
-                    cleanliness with all SOPs and COVID protocols well adhered.
-                    Adjacent Chokha Punjab is a ++ for entertainment at night.
-                    Staff is helpful and prompt.
+                  We had some guests over here in Jaipur and we booked Pink Pearl Hotel for their stay. They were very impressed with the hotel and we're happy with the treatment they received and the awesome property. I am glad I recommended Pink Pearl to them and they appreciated my decision. 
+
                   </p>
                 </div>
                 <div className="testimonial-pic radius">
                   <img
-                    src={require("./../../images/testimonials/pic5.jpg")}
+                    src={require("./../../images/testimonials/pic4.jpg")}
                     style={{ width: "100", height: "100" }}
                     alt=""
                   />
                 </div>
                 <div className="testimonial-detail">
                   {" "}
-                  <strong className="testimonial-name">David Matin</strong>{" "}
+                  <strong className="testimonial-name">Suyash Sharma</strong>{" "}
                   {/* <span className="testimonial-position">Student</span>{" "} */}
                 </div>
               </div>
-              <div className="testimonial-1">
-                <div className="testimonial-text">
-                  <p>
-                    Well, the room was nice and staff was good. Especially the
-                    reception manager. The food is no doubt good and location is
-                    easily accessible be it from station or highway. Moreover my
-                    stay was very good
-                  </p>
-                </div>
-                <div className="testimonial-pic radius">
-                  <img
-                    src={require("./../../images/testimonials/pic5.jpg")}
-                    style={{ width: "100", height: "100" }}
-                    alt=""
-                  />
-                </div>
-                <div className="testimonial-detail">
-                  {" "}
-                  <strong className="testimonial-name">David Matin</strong>{" "}
-                  {/* <span className="testimonial-position">Student</span>{" "} */}
-                </div>
-              </div>
+              
             </Carousel>
           </div>
         </div>

@@ -89,17 +89,10 @@ class Index2 extends Component {
                 <div className="menu-box">
                   <div className="section-head style-2">
                     {/* <h4 className="sub-title">Pizza Menu</h4> */}
-                    <h2 className="title">Pink Pearl Hotel</h2>
+                    <h2 className="title">A Holistic Experience</h2>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  Offering an accomodation so unique, surrounded by the beauty of nature, away from the hustle and chaos, still within reach to the city center. Our hotel offers best in class amenities, delicious food from in-house restaurants, discotheque, and a lot more. It's like a complete package under one roof to  make your staycation to Jaipur an experience of a lifetime.
                   </p>
                   {/* <ul className="menu-list-2">
                     <li>
@@ -183,17 +176,10 @@ class Index2 extends Component {
                 <div className="menu-box">
                   <div className="section-head style-2">
                     {/* <h4 className="sub-title">Pizza Menu</h4> */}
-                    <h2 className="title">Pink Pearl Hotel</h2>
+                    <h2 className="title">The Wedding Destination</h2>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                  On one side is the Pink Pearl Water Park, on the other is theme based Chokha Punjab, and a capacious wedding garden to give you a one stop destination for planning any small or big celebration. Plan a destination wedding in Jaipur with Pink Pearl offering hotel, wedding venues for various ceremonies, amusement park for guests to enjoy and a lot more and celebrate a wedding to remember for you and your loved ones.
                   </p>
                   {/* <ul className="menu-list-2">
                     <li>

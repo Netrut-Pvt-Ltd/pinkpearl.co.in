@@ -25,7 +25,7 @@ class Footer extends Component {
                   <ul>
                     <li>
                       <i className="fa fa-map-marker"></i>
-                      <p>Jaipur, India</p>
+                      <p>NH - 8, Ajmer-Jaipur Expressway Near Mahapura, Mod, Bhakrota, Jaipur, Rajasthan 302026</p>
                     </li>
                     <li>
                       <i className="fa fa-phone"></i>
@@ -103,36 +103,24 @@ class Footer extends Component {
                 </div>
               </div>
               <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                <div className="widget widget_services border-0">
-                  <h4 className="footer-title">Quick Links</h4>
-                  <ul className="list-2">
+                <div className="widget widget_getintuch">
+                  <h5 className="footer-title text-white">For Corporate / Bulk Bookings</h5>
+                  <ul>
+                   
                     <li>
-                      <Link to={"/"}>Home</Link>
+                      <i className="fa fa-mobile"></i>
+                      <p>+91-9314512035</p>
                     </li>
+                    
                     <li>
-                      <Link to={"/about-1"}>About</Link>
+                      <i className="fa fa-envelope"></i>
+                      <p style={{ textTransform: "lowercase" }}>
+                        <a href="#" style={{ color: "#fff" }}>
+                          {" "}
+                          mktg_jpr@pinkpearl.co.in
+                        </a>
+                      </p>
                     </li>
-                    {/* <li>
-                      <Link to={"/our-menu-1"}>Our Menu</Link>
-                    </li> */}
-                    {/* <li>
-                      <Link to={"/faq"}>FAQ</Link>
-                    </li> */}
-                    {/* <li>
-                      <Link to={"/blog-grid-2"}>Blog</Link>
-                    </li> */}
-                    {/* <li>
-                      <Link to={"/shop"}>Shop</Link>
-                    </li> */}
-                    <li>
-                      <Link to={"/contact-1"}>Contact</Link>
-                    </li>
-                    {/* <li>
-                      <Link to={"/team"}>Team</Link>
-                    </li>
-                    <li>
-                      <Link to={"/calendar"}>Calendar</Link>
-                    </li> */}
                   </ul>
                 </div>
               </div>

@@ -101,7 +101,7 @@ function Contact() {
                       details.
                     </p>
                     <ul className="no-margin">
-                      <li className="icon-bx-wraper left m-b30">
+                      <li className="icon-bx-wraper left" style={{marginBottom:"16px"}}>
                         <div className="icon-bx-xs border-1 text-primary">
                           {" "}
                           <Link to={""} className="icon-cell">
@@ -118,7 +118,7 @@ function Contact() {
                           </p>
                         </div>
                       </li>
-                      <li className="icon-bx-wraper left  m-b30">
+                      <li className="icon-bx-wraper left " style={{marginBottom:"16px"}}>
                         <div className="icon-bx-xs border-1 text-primary">
                           {" "}
                           <Link to={""} className="icon-cell">
@@ -129,7 +129,7 @@ function Contact() {
                           <h6 className="text-uppercase m-tb0 dlab-tilte">
                             Email:
                           </h6>
-                          <p>
+                          <p style={{marginBottom:"7px"}}>
                             <a href="#"> front_office@pinkpearl.co.in </a>|
                             {/* <a href="#"> operationsmgr@pinkpearl.co.in </a> */}
                           </p>
@@ -140,7 +140,7 @@ function Contact() {
                           </p>
                         </div>
                       </li>
-                      <li className="icon-bx-wraper left">
+                      <li className="icon-bx-wraper left" style={{marginBottom:"16px"}}>
                         <div className="icon-bx-xs border-1 text-primary">
                           <Link to={""} className="icon-cell">
                             <i className="ti-mobile"></i>
@@ -157,6 +157,32 @@ function Contact() {
                           {/* <p>Corporate Sales Office: +91-9314512035</p> */}
                         </div>
                       </li>
+
+
+                      <li className="icon-bx-wraper left" style={{marginBottom:"16px"}}>
+                        <div className="icon-bx-xs border-1 text-primary">
+                          <Link to={""} className="icon-cell">
+                            <i className="ti-mobile"></i>
+                          </Link>{" "}
+                        </div>
+                        <div className="icon-content">
+                          <h6 className="text-uppercase m-tb0 dlab-tilte">
+                            For Corporate / Bulk Bookings
+                          </h6>
+                          <p>
+                             +91-9314512035 |mktg_jpr@pinkpearl.co.in
+                          </p>
+                          {/* <p>(Water Park): +91-9314823132 | +91-9587433803</p> */}
+                          {/* <p>Corporate Sales Office: +91-9314512035</p> */}
+                        </div>
+                      </li>
+
+
+                     
+
+
+
+
                     </ul>
                     <div className="m-t20">
                       <ul className="dlab-social-icon dlab-social-icon-lg">

@@ -30,6 +30,28 @@ class Footer2 extends Component {
                     </li>
                   </ul>
                 </div>
+                <div className="bookings">
+                <div className="widget widget_getintuch">
+                  <h5 className="footer-title text-white" style={{borderBottom:"0px", marginBottom:"0px", paddingBottom:"0px"}}>For Corporate / Bulk Bookings</h5>
+                  <ul style={{lineHeight:"0px"}}>
+                   
+                    <li style={{paddingLeft:"0px"}}>
+                      {/* <i className="fa fa-mobile"></i> */}
+                      <p>+91-9314512035</p>
+                    </li>
+                    
+                    <li style={{paddingLeft:"0px"}}>
+                      {/* <i className="fa fa-envelope"></i> */}
+                      <p style={{ textTransform: "lowercase" }}>
+                        <a href="#" style={{ color: "#fff" }}>
+                          {" "}
+                          mktg_jpr@pinkpearl.co.in
+                        </a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                </div>
                 <p className="copyright">
                   Copyright © 2021 Pink Pearl. all rights reserved.
                 </p>

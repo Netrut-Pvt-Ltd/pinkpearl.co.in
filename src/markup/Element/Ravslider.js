@@ -31,9 +31,7 @@ class Banner extends Component {
                   </div> */}
 
                   <p className="info">
-                    Aliquam vulputate, tortor nec commodo ultricies,vitae
-                    viverra urna nulla sed turpis. Nullam lacinia faucibus
-                    risus, a euismod.
+                  Stay at the finest hotel in Jaipur offering an experience of unmatched hospitality.
                   </p>
 
                   <a
